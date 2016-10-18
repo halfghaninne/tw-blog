@@ -42,7 +42,14 @@
 	</div>
 
 	<div class="work">
-	
+
+		<div class="work-item">
+			<img class="work-item__thumbnail" src="./public/daytrip.jpg">
+			<p class="work-item__description">
+				Near and dear to our hearts, DayTrip is a Paravel project designed to make it easy to find something great to do and someplace great to go. Austin/Texas area private beta out now.
+			</p>
+		</div>
+
 		<div class="work-item">
 			<img class="work-item__thumbnail" src="./public/daytrip.jpg">
 			<p class="work-item__description">
