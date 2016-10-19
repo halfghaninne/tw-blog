@@ -66,19 +66,20 @@
 	</div>
 
 	<div class="footer">
-		<div class="footer__items">
-			<div>
-				Follow me on Twitter
-			</div>
-			<div class="footer__items footer__items-left">
-				<div>
-					Hire Paravel
-				</div>
-				<div>
-					RSS Feed
-				</div>
-			</div>
+
+		<a href="#">
+			Follow me on Twitter
+		</a>
+
+		<div class="footer__right-links">
+			<a href="#" class="footer__right-link">
+				Hire Paravel
+			</a>
+			<a href="#" class="footer__right-link">
+				RSS Feed
+			</a>
 		</div>
+
 	</div>
 
 
