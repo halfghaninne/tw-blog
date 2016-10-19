@@ -72,10 +72,10 @@
 		</a>
 
 		<div class="footer__right-links">
-			<a href="#" class="footer__right-link">
+			<a href="#" class="footer__right-link nav-link">
 				Hire Paravel
 			</a>
-			<a href="#" class="footer__right-link">
+			<a href="#" class="footer__right-link nav-link">
 				RSS Feed
 			</a>
 		</div>
