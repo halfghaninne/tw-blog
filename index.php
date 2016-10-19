@@ -6,28 +6,28 @@
 </head>
 <body>
 	<div class="header">
-		<div>
-			<img src="./public/tw-logo.png" class="logo">
-		</div>
-<!-- 		<div class="page-navigation"> -->
-			<ul class="page-navigation">
-				<li class="page-navigation__link">
-					<a href="" class="nav-link">Articles</a>
-				</li>
-				<li class="page-navigation__link">
-					<a href="" class="nav-link">Notes</a>
-				</li>
-				<li class="page-navigation__link">
-					<a href="" class="nav-link">Info</a>
-				</li> 
-				<li class="page-navigation__link">
-					<a href="" class="nav-link">Search</a>
-				</li>
-			</ul>
-<!-- 		</div> -->
+	<!-- This div is context for the elements that follow, not a block -->
+		<img src="./public/tw-logo.png" class="logo">
+		<ul class="page-navigation">
+		<!-- This ul is a block -->
+			<li class="page-navigation__link">
+			<!-- And each li an element -->
+				<a href="" class="nav-link">Articles</a>
+			</li>
+			<li class="page-navigation__link">
+				<a href="" class="nav-link">Notes</a>
+			</li>
+			<li class="page-navigation__link">
+				<a href="" class="nav-link">Info</a>
+			</li> 
+			<li class="page-navigation__link">
+				<a href="" class="nav-link">Search</a>
+			</li>
+		</ul>
 	</div>
 
 	<div class="intro">
+	<!-- This div is a block -->
 		<h1 class="intro__paragraph">
 			I'm a designer and web builder who works with two of my best friends at <a href="#" class="link">Paravel</a>.
 		</h1>
@@ -42,18 +42,25 @@
 	</div>
 
 	<div class="work">
-
+	<!-- This div is context for the blocks within it -->
 		<div class="work-item">
 			<img class="work-item__thumbnail" src="./public/daytrip.jpg">
 			<p class="work-item__description">
-				Near and dear to our hearts, DayTrip is a Paravel project designed to make it easy to find something great to do and someplace great to go. Austin/Texas area private beta out now.
+				Near and dear to our hearts, <a href="#" class="link">DayTrip</a> is a Paravel project designed to make it easy to find something great to do and someplace great to go. Austin/Texas area private beta out now.
 			</p>
 		</div>
 
 		<div class="work-item">
-			<img class="work-item__thumbnail" src="./public/daytrip.jpg">
+			<img class="work-item__thumbnail" src="./public/tmfo.jpg">
 			<p class="work-item__description">
-				Near and dear to our hearts, DayTrip is a Paravel project designed to make it easy to find something great to do and someplace great to go. Austin/Texas area private beta out now.
+				We recently published two new <a href="#" class="link">TMFO</a> posts. One for <a href="#" class="link">Burt Reynolds</a>, and another one called <a href="#" class="link">Punch Dancing</a>.
+			</p>
+		</div>
+
+		<div class="work-item">
+			<img class="work-item__thumbnail" src="./public/paravel.jpg">
+			<p class="work-item__description">
+				We recently updated <a href="#" class="link">paravelinc.com</a> with some new portfolio items, talks, podcasts, interviews, and a brand new home page graphic from <a href="#" class="link">Curtis Jinkins</a>.
 			</p>
 		</div>
 
@@ -66,16 +73,16 @@
 	</div>
 
 	<div class="footer">
-
-		<a href="#">
+	<!-- This div is a block -->
+		<a href="#" class="link">
 			Follow me on Twitter
 		</a>
 
 		<div class="footer__right-links">
-			<a href="#" class="footer__right-link nav-link">
+			<a href="#" class="footer__right-link link">
 				Hire Paravel
 			</a>
-			<a href="#" class="footer__right-link nav-link">
+			<a href="#" class="footer__right-link link">
 				RSS Feed
 			</a>
 		</div>
